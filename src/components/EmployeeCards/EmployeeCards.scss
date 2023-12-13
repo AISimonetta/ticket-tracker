@@ -12,10 +12,11 @@
     align-items: center;
     width: 125px;
     height: 200px   ;
-    background-color: rgb(190, 184, 184);
+    background-color: rgba(190, 184, 184, 0.498);
     border: 1px solid #ddd;
     padding: 4px;
     margin-bottom: 15px;
+    margin-top: 20px;
 }
 
 .card__name {
@@ -29,7 +30,7 @@
 .card__role {
     text-align: center;
     font-size: 12px;
-    color: antiquewhite;
+    color: white;
     margin: 5px
 }
 

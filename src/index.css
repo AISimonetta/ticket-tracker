@@ -24,6 +24,10 @@ body {
   font-size: 40px;
 }
 
+.main-title::first-line{
+  color:bisque;
+}
+
 button {
   padding: 10px;
   width: 40px;

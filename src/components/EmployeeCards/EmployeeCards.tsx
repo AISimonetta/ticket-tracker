@@ -1,6 +1,6 @@
 import './EmployeeCards.scss';
-import team from '../../data/team';
 import TicketCounter from '../TicketCounter/TicketCounter';
+import team from '../../data/team';
 
 type EmployeeCardsProps = {
   id: number;
@@ -10,17 +10,17 @@ type EmployeeCardsProps = {
 
 const EmployeeCards = ({ id, name, role }: EmployeeCardsProps) => {
 
-  const coworkers = team.map((coworker) => (
-    <div key={coworker.id} >
+  const employees = team.map((employee) => (
+    <div key={employee.id} >
       <div className='card__container'>
-          <div className='card__name'>{coworker.name.toUpperCase()}</div>
-          <div className='card__role'>{coworker.role}</div>
+          <div className='card__name'>{employee.name.toUpperCase()}</div>
+          <div className='card__role'>{employee.role}</div>
           <TicketCounter/>
       </div>
     </div>
   ));
 
-  return <div className='cards'>{coworkers}</div>;
+  return <div className='cards'>{employees}</div>;
 };
 
 export default EmployeeCards;
