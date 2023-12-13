@@ -1,0 +1,40 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 125px;
+    height: 200px   ;
+    background-color: rgb(190, 184, 184);
+    border: 1px solid #ddd;
+    padding: 4px;
+    margin-bottom: 15px;
+    
+}
+
+.card__name {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
+.card__role {
+    text-align: center;
+    font-size: 12px;
+    color: antiquewhite;
+    margin: 5px
+}
+
+.counter__add,
+.counter__substract {
+    padding: 10px;
+    margin: 5px;
+}
