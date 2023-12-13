@@ -2,13 +2,13 @@ import './EmployeeCards.scss';
 import team from '../../data/team';
 import TicketCounter from '../TicketCounter/TicketCounter';
 
-type CoworkerCardsProps = {
+type EmployeeCardsProps = {
   id: number;
   name: string;
   role: string;
 };
 
-const CoworkerCards = ({ id, name, role }: CoworkerCardsProps) => {
+const EmployeeCards = ({ id, name, role }: EmployeeCardsProps) => {
 
   const coworkers = team.map((coworker) => (
     <div key={coworker.id} >
@@ -23,4 +23,4 @@ const CoworkerCards = ({ id, name, role }: CoworkerCardsProps) => {
   return <div className='cards'>{coworkers}</div>;
 };
 
-export default CoworkerCards;
+export default EmployeeCards;
