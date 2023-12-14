@@ -1,30 +1,11 @@
-# React + TypeScript + Vite
+# | TICKET PROJECT |
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The aim of this project was to develope a team ticket tracker with a counter using useState and also if possible add an input field to filter the team members by name.
 
-Currently, two official plugins are available:
+# For this project I used : React + TypeScript + Scss
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+# This is how my mobile friendly ticket tracker looks like :
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![Screenshot 2023-12-14 at 06 27 04](https://github.com/AISimonetta/ticket-tracker/assets/122782260/23e1578e-459e-426b-b33b-0eaba9ef601d)
