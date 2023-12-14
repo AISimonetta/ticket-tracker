@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-      <h1 className='main-title'> | TICKET TRACKER |</h1>
+      <h1 className='main-title'>|TICKET|  TRACKER</h1>
       <FilterName searchName={searchName} onChange={handleSearchByNameInput} />
       <div className='cards'>
         {filteredEmployeed.map((employee) => (
