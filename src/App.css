@@ -30,6 +30,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
+  margin: 010px;
 }
 
 .main-title::first-line{
