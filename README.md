@@ -1,6 +1,6 @@
 # | TICKET PROJECT |
 
-The aim of this project was to develope a team ticket tracker with a counter using useState and also if possible add an input field to filter the team members by name.
+The aim of this project was to develop a team ticket tracker with a counter using useState and also if possible add an input field to filter the team members by name.
 
 # For this project I used : React + TypeScript + Scss
 
