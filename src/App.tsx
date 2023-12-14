@@ -25,7 +25,7 @@ function App() {
           <EmployeeCards
               key={employee.id}
               name={employee.name}
-              role={employee.role} 
+              role={employee.role}
           />
         ))}
       </div>
