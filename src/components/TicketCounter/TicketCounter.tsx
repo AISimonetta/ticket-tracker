@@ -2,6 +2,7 @@ import './TicketCounter.scss'
 import { useState } from 'react'
 
 const TicketCounter = () => {
+
   const [ticket, setTicket] = useState(0);
 
 //Decrement function
@@ -14,11 +15,9 @@ const TicketCounter = () => {
   };
 
   //Increment function
-
   const incrementTicket = () => {
     setTicket(ticket + 1);
   };
-
 
   return (
     <div className='counter'>

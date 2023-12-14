@@ -1,22 +1,17 @@
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-}
 
 .card__container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 125px;
+    width: 120px;
     height: 200px   ;
     background-color: rgba(190, 184, 184, 0.498);
     border: 1px solid #ddd;
-    padding: 4px;
-    margin-bottom: 15px;
+    padding: 5px;
+    margin-bottom: 2-px;
     margin-top: 20px;
+    border-radius: 10px;
 }
 
 .card__name {
@@ -25,6 +20,11 @@
     font-weight: bold;
     color: black;
     margin-bottom: 10px;
+}
+
+.card__name::first-letter {
+    color:bisque;
+    font-size: 16px;
 }
 
 .card__role {
