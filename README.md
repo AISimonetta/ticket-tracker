@@ -1,6 +1,6 @@
 ✦ Ticket Tracker Project ✦
 
-The aim of this project was to develop a team ticket tracker with a counter using useState and also if possible add an input field to filter the team members by name.
+This project aimed to create a team ticket tracker featuring a counter utilizing useState. Additionally, efforts were made to include an input field allowing users to filter team members by name.
 
 ✦ Technologies Used:
 
