@@ -11,7 +11,8 @@ This project aimed to create a team ticket tracker featuring a counter utilizing
 ►  Project Preview:
 ---
 
-![Screenshot 2023-12-14 at 06 27 04](https://github.com/AISimonetta/ticket-tracker/assets/122782260/23e1578e-459e-426b-b33b-0eaba9ef601d)
+![Screenshot 2024-02-26 at 13 06 46](https://github.com/AISimonetta/ticket-tracker/assets/122782260/3031507f-8027-46cc-928a-6414b0a5ee2a)
+
 
 ► Setup Instructions:
 ---
