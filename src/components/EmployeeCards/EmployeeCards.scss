@@ -4,39 +4,45 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 120px;
+    width: 250px;
     height: 200px   ;
-    background-color: rgba(190, 184, 184, 0.498);
+    background: rgb(218,217,227);
+    background: linear-gradient(346deg, rgba(218,217,227,1) 0%, rgba(255,255,255,1) 36%);
     border: 1px solid #ddd;
     padding: 5px;
     margin: 15px 5px;
-    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px  rgba(128, 128, 128, 0.543);
 }
 
 .card__name {
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     color: black;
     margin-bottom: 10px;
 }
 
 .card__name::first-letter {
-    color:bisque;
-    font-size: 20px;
-    letter-spacing: 3px;
+    color: #085e90;
+    font-size: 22px;
+    letter-spacing: 1px;
 }
 
 .card__role {
     text-align: center;
     font-size: 16px;
-    color: white;
+    color: #2e94cd;
     margin: 5px,
-    
 }
 
 .counter__add,
 .counter__substract {
     padding: 10px;
     margin: 5px;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+
 }

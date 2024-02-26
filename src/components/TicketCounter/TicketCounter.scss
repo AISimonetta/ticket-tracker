@@ -6,10 +6,16 @@
     display: flex;
 
 }
+
 button {
     padding: 10px;
     width: 40px;
     border: none;
+    background-color: rgb(102, 100, 97);
+}
+
+button:hover {
+    background-color:#085e90;;
 }
 
 .counter__add,
