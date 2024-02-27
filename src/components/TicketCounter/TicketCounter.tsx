@@ -5,7 +5,6 @@ const TicketCounter = () => {
 
   const [ticket, setTicket] = useState(0);
 
-//Decrement function
   const decrementIicket = () => {
     if (ticket > 0) {
       setTicket(ticket - 1);
@@ -14,7 +13,6 @@ const TicketCounter = () => {
     }
   };
 
-  //Increment function
   const incrementTicket = () => {
     setTicket(ticket + 1);
   };
